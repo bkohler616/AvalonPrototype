@@ -1,0 +1,35 @@
+﻿@{
+    Layout = "~/Layouts/_MainLayout.cshtml";
+}
+
+
+<div class="container">
+    <form role="form" class="form-signin">
+        <h1 class="text center">Login</h1>
+        <div class="form-group">
+            <label class="control-label" for="inputUsername">Username</label>
+            <input type="text" class="form-control" id="inputUsername" placeholder="Enter username" required="">
+            <label class="control-label" for="inputPassword">Password</label>
+            <input type="password" class="form-control" id="inputPassword" placeholder="Enter password" required="">
+        </div>
+        <div class="checkbox">
+            <label>
+                <input type="checkbox"> Remember me
+            </label>
+        </div>
+        <button type="submit" class="text-center btn btn-primary fill-expand">Submit</button>
+    </form>
+
+    <div class="row text-center">
+        <h2>Login bypass</h2>
+        <div class="col-xs-4">
+            <a class="btn btn-primary enlarge-size">Student</a>
+        </div>
+        <div class="col-xs-4">
+            <a class="btn btn-primary enlarge-size">Teacher</a>
+        </div>
+        <div class="col-xs-4">
+            <a class="btn btn-primary enlarge-size">Admin</a>
+        </div>
+    </div>
+</div>
