@@ -28,7 +28,7 @@
 }
 
 .enlarge-size {
-    width: 15em;
+    width: 10em;
 }
 
 .style-orange {
@@ -79,8 +79,21 @@ html, body {
     border-bottom-right-radius: 15px;
 }
 
+.glyphicon {
+    font-size: 3em;
+}
+
+a:link a:visited a:hover a:active {
+    text-decoration: none;
+}
+
+
+
 /*Tablet navbar collapse support*/
-@media (max-width: 1200px) {
+@media (max-width: 1377px) {
+    .glyphicon {
+    font-size: 7em;
+    }
     .navbar-header {
         float: none;
     }
@@ -115,13 +128,32 @@ html, body {
     .collapse.in{
         display:block !important;
     }
+
+    /*Dropdown edit*/
+    .dropdown>.dropdown-menu {
+        position: static;
+        float: none;
+        width: auto;
+        margin-top: 0;
+        background-color: transparent;
+        border: 0;
+        box-shadow: none;
+    }
+}
+@media (max-width: 500px) and (min-width:200px) {
+    .glyphicon {
+    font-size: 3em;
+    }
 }
 
 .form-signin {
   max-width: 330px;
   padding: 15px;
   margin: 0 auto;
-  margin-top: 10em;
+  margin-top: 5em;
+}
+.form-selector {
+    margin-top:3em;
 }
 .form-signin .form-signin-heading,
 .form-signin .checkbox {
@@ -147,4 +179,13 @@ html, body {
   margin-bottom: 10px;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
+}
+
+
+a>span.glyphicon {
+    color:#012169;
+}
+
+.display-hide {
+    display: none;
 }
