@@ -1,0 +1,85 @@
+﻿@{
+    Layout = "~/Layouts/_TeacherLayout.cshtml";
+}
+
+
+<div class="container">
+    <h2>Quick Access Links</h2>
+    <div class="row text-center">
+        <div class="col-md-6">
+            <h3>Email and Emergancies</h3>
+            <div class="row">
+                <div class="col-xs-6">
+                    <a class="display-stack" href="http://office365.yorktech.edu">
+                        <span class="display-stack glyphicon glyphicon-envelope"></span>
+                        Office 365 Email
+                    </a>
+                </div>
+                <div class="col-xs-6">
+                    <a class="display-stack" href="https://yorktech.regroup.com/signup">
+                        <span class="display-stack glyphicon glyphicon-warning-sign"></span>
+                        ReGroup Emergancy Notifications
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="dropup form-signin form-selector">
+        <button class="btn btn-primary dropdown-toggle fill-expand" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+            Class Selection
+            <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+            <li><a href="#" id="classSelection">Systems and Procedures</a></li>
+        </ul>
+    </div>
+    <div class="row text-center display-hide" id="classDirectory1">
+        <div class="col-xs-4">
+            <a class="display-stack" href="~/Views/Teacher/Course/CourseHome.cshtml">
+                <span class="display-stack glyphicon glyphicon-home"></span>
+                Course Home
+            </a>
+        </div>
+        <div class="col-xs-4">
+            <a class="display-stack" href="~/Views/Teacher/Course/Content.cshtml">
+                <span class="display-stack glyphicon glyphicon-book"></span>
+                Content
+            </a>
+        </div>
+        <div class="col-xs-4">
+            <a class="display-stack" href="~/Views/Teacher/Course/Quizzes.cshtml">
+                <span class="display-stack glyphicon glyphicon-list-alt"></span>
+                Quizzes
+            </a>
+        </div>
+    </div>
+    <div class="row text-center display-hide" id="classDirectory2">
+        <div class="col-xs-6">
+            <a class="display-stack" href="~/Views/Teacher/Course/Class List.cshtml">
+                <span class="display-stack glyphicon glyphicon-user"></span>
+                Class List
+            </a>
+        </div>
+        <div class="col-xs-6">
+            <a class="display-stack" href="~/Views/Teacher/Course/Discussions.cshtml">
+                <span class="display-stack glyphicon glyphicon-comment"></span>
+                Discussions
+            </a>
+        </div>
+    </div>
+    <div class="row text-center display-hide" id="classDirectory3">
+
+        <div class="col-xs-6">
+            <a class="display-stack" href="~/Views/Teacher/Course/GradesStuSelect.cshtml">
+                <span class="display-stack glyphicon glyphicon-check"></span>
+                Grades
+            </a>
+        </div>
+        <div class="col-xs-6">
+            <a class="display-stack" href="~/Views/Teacher/Course/AttendanceStuSelect.cshtml">
+                <span class="display-stack glyphicon glyphicon-time"></span>
+                Attendance
+            </a>
+        </div>
+    </div>
+</div>

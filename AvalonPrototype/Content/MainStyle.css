@@ -28,7 +28,7 @@
 }
 
 .enlarge-size {
-    width: 10em;
+    width: 7em;
 }
 
 .style-orange {
@@ -319,4 +319,12 @@ nav + .container {
 }
 nav + iframe {
     margin-top:3em;
+}
+
+#AddDialog {
+    display:none;
+}
+
+.no-close .ui-dialog-titlebar-close {
+  display: none;
 }

@@ -122,6 +122,9 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\jquery-ui.min.css" />
+    <Content Include="Content\jquery-ui.structure.min.css" />
+    <Content Include="Content\jquery-ui.theme.min.css" />
     <Content Include="Content\MainStyle.css" />
     <Content Include="Images\Main-1line-Motto.jpg" />
     <Content Include="Images\Main-1line.jpg" />
@@ -135,6 +138,7 @@
     <Content Include="Index.cshtml" />
     <Content Include="Scripts\CustomScripts.js" />
     <Content Include="Scripts\jquery-1.9.1.min.map" />
+    <Content Include="Scripts\jquery-ui.min.js" />
     <Content Include="Views\Login.cshtml" />
     <Content Include="Views\Events and Schedules.cshtml" />
     <Content Include="Views\Admissions and Registration.cshtml" />
@@ -146,6 +150,8 @@
     <Content Include="Layouts\_StudentClassLayout.cshtml" />
     <Content Include="Views\Student\Transcript.cshtml" />
     <Content Include="Views\Student\Course\CourseHome.cshtml" />
+    <Content Include="Layouts\_TeacherLayout.cshtml" />
+    <Content Include="Layouts\_TeacherClassLayout.cshtml" />
     <None Include="Properties\PublishProfiles\Test.pubxml" />
     <Content Include="Views\Student\Course\Content.cshtml" />
     <Content Include="Views\Student\Course\Quizzes.cshtml" />
@@ -154,6 +160,17 @@
     <Content Include="Views\Student\Course\Discussions.cshtml" />
     <Content Include="Views\Student\Course\Attendance.cshtml" />
     <Content Include="Views\Student\Course\ExampleDiscussion.cshtml" />
+    <Content Include="Views\Teacher\Index.cshtml" />
+    <Content Include="Views\Teacher\Course\Attendance.cshtml" />
+    <Content Include="Views\Teacher\Course\Class List.cshtml" />
+    <Content Include="Views\Teacher\Course\Content.cshtml" />
+    <Content Include="Views\Teacher\Course\CourseHome.cshtml" />
+    <Content Include="Views\Teacher\Course\Discussions.cshtml" />
+    <Content Include="Views\Teacher\Course\ExampleDiscussion.cshtml" />
+    <Content Include="Views\Teacher\Course\Grades.cshtml" />
+    <Content Include="Views\Teacher\Course\Quizzes.cshtml" />
+    <Content Include="Views\Teacher\Course\AttendanceStuSelect.cshtml" />
+    <Content Include="Views\Teacher\Course\GradesStuSelect.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -188,7 +205,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\Admin\" />
-    <Folder Include="Views\Teacher\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

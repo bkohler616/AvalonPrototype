@@ -1,0 +1,85 @@
+﻿@{
+    Layout = "~/Layouts/_TeacherClassLayout.cshtml";
+}
+
+
+<div class="container">
+    <h1>Systems and Procedures</h1>
+
+    <h2>Course Links</h2>
+
+    <div class="row text-center">
+        <div class="col-xs-6">
+            <a class="display-stack" href="~/Views/Teacher/Course/Content.cshtml">
+                <span class="display-stack glyphicon glyphicon-book"></span>
+                Content
+            </a>
+        </div>
+        <div class="col-xs-6">
+            <a class="display-stack" href="~/Views/Teacher/Course/Quizzes.cshtml">
+                <span class="display-stack glyphicon glyphicon-list-alt"></span>
+                Quizzes
+            </a>
+        </div>
+    </div>
+    <div class="row text-center">
+        <div class="col-xs-6">
+            <a class="display-stack" href="~/Views/Teacher/Course/Class List.cshtml">
+                <span class="display-stack glyphicon glyphicon-user"></span>
+                Class List
+            </a>
+        </div>
+        <div class="col-xs-6">
+            <a class="display-stack" href="~/Views/Teacher/Course/Discussions.cshtml">
+                <span class="display-stack glyphicon glyphicon-comment"></span>
+                Discussions
+            </a>
+        </div>
+    </div>
+    <div class="row text-center">
+        <div class="col-xs-6">
+            <a class="display-stack" href="~/Views/Teacher/Course/GradesStuSelect.cshtml">
+                <span class="display-stack glyphicon glyphicon-check"></span>
+                Grades
+            </a>
+        </div>
+        <div class="col-xs-6">
+            <a class="display-stack" href="~/Views/Teacher/Course/AttendanceStuSelect.cshtml">
+                <span class="display-stack glyphicon glyphicon-time"></span>
+                Attendance
+            </a>
+        </div>
+    </div>
+
+    <hr/>
+    <h2>News <a href="#" id="Add" class="align-right"><span class="glyphicon glyphicon-plus-sign glyph-small"></span></a></h2>
+    <div id="AddDialog" class="well">
+        <form role="form">
+            <div class="form-group">
+                <label class="control-label">News Title</label>
+                <input type="text" class="form-control" placeholder="Title . . .">
+                <label class="control-label">Content</label>
+                <textarea rows="5" class="form-control" placeholder="Content . . ."></textarea>
+            </div>
+            <button type="submit" class="btn btn-default" id="CloseDialog">Submit</button>
+        </form>
+    </div>
+    <div class="bs-callout bs-callout-new">
+        <h3>Final's Arriving!</h3>
+        <h5>Posted Nov 17, 2016 7:42 PM</h5>
+        <p>Finals are coming. Prepare! Finals date: 12/1/2016</p>
+    </div>
+
+    <div class="bs-callout bs-callout-old">
+        <h3>Midterm approaches!</h3>
+        <h5>Posted Oct 5, 2016 9:54 AM</h5>
+        <p>Midterms are coming. Prepare! Date: 10/10/2016</p>
+    </div>
+
+    <div class="bs-callout bs-callout-old">
+        <h3>Welcome to class!</h3>
+        <h5>Posted Sep 5, 2016 4:20 PM</h5>
+        <p>Really basic introduction here!</p>
+    </div>
+
+</div>

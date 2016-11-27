@@ -1,0 +1,48 @@
+﻿@{
+    Layout = "~/Layouts/_TeacherClassLayout.cshtml";
+}
+
+
+<div class="container">
+    <h2>Grades for:</h2>
+    <h3>Systems and Procedures</h3>
+    <h4>Showing for Howard Jhonson</h4>
+    <div id="AddDialog" class="well">
+        <form role="form">
+            <div class="form-group">
+                <label class="control-label">Change Grade</label>
+                <input type="text" class="form-control" placeholder="200">/250
+                
+            </div>
+            <button type="submit" class="btn btn-default" id="CloseDialog">Submit</button>
+        </form>
+    </div>
+    <div class="panel panel-info">
+        <div class="panel-heading">Grade List</div>
+        <table class="table">
+            <tr>
+                <th>Grade Item</th>
+                <th class="align-right">Grade</th>
+            </tr>
+            <tr>
+                <td>Chap 1 Test</td>
+                <td class="align-right"><a href="#" id="Add"><span class="glyphicon glyph-small glyphicon-edit"></span></a>200/250</td>
+            </tr>
+            <tr>
+                <td>Chap 2 Test</td>
+                <td class="align-right"><a href="#" id="Add"><span class="glyphicon glyph-small glyphicon-edit"></span></a>200/250</td>
+            </tr>
+            <tr>
+                <td>Chap 3 Test</td>
+                <td class="align-right"><a href="#" id="Add"><span class="glyphicon glyph-small glyphicon-edit"></span></a>200/250</td>
+            </tr>
+            <tr>
+                <td>Chap 4 Test</td>
+                <td class="align-right"><a href="#" id="Add"><span class="glyphicon glyph-small glyphicon-edit"></span></a>205/250</td>
+            </tr>
+        </table>
+        <hr/>
+        <p>Final Grade: 805/1000 - 80% - B</p>
+    </div>
+    
+</div>
